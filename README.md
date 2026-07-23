@@ -28,13 +28,13 @@ npm.cmd run dev
 If your copy of the project is still named `Helix-Agent`, rename it before opening a new terminal:
 
 ```powershell
-Rename-Item "C:\Users\noelc\OneDrive\Desktop\Helix-Agent" "helixcode"
+Rename-Item "C:\Users\<username>\OneDrive\Desktop\Helix-Agent" "helixcode"
 ```
 
 Then run it from the renamed folder:
 
 ```powershell
-Set-Location "C:\Users\noelc\OneDrive\Desktop\helixcode"
+Set-Location "C:\Users\<username>\OneDrive\Desktop\helixcode"
 npm.cmd run dev
 ```
 

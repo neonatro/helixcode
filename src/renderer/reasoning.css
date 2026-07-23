@@ -1,0 +1,61 @@
+.message.reasoning {
+  align-self: stretch;
+  margin: 2px 12px 6px;
+  padding: 0;
+  background: transparent;
+  color: #90898d;
+  font-size: 12px;
+}
+
+.reasoning-dropdown { display: block; width: 100%; }
+
+.reasoning-dropdown summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  color: #938b90;
+  list-style: none;
+  user-select: none;
+}
+
+.reasoning-dropdown summary::-webkit-details-marker { display: none; }
+.reasoning-dropdown summary::before { content: '>'; color: #706970; font-size: 14px; }
+.reasoning-dropdown[open] summary::before { content: 'v'; }
+
+.reasoning-dropdown pre {
+  max-height: 190px;
+  overflow: auto;
+  margin: 7px 0 0;
+  padding: 9px 10px;
+  white-space: pre-wrap;
+  border-left: 2px solid #50494d;
+  border-radius: 0 5px 5px 0;
+  background: #151216;
+  color: #aaa1a6;
+  font: 11px/1.45 ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.message.system {
+  position: relative;
+  margin: 14px 0;
+  padding: 0;
+  background: transparent;
+  color: #80767c;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: .02em;
+}
+
+.message.system::before,
+.message.system::after {
+  position: absolute;
+  top: 50%;
+  width: 21%;
+  height: 1px;
+  background: #493a42;
+  content: '';
+}
+
+.message.system::before { left: 0; }
+.message.system::after { right: 0; }

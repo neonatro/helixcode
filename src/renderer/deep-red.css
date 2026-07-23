@@ -1,0 +1,1 @@
+:root{--red:#7f0a1f;--red-hover:#a20e28;--red-soft:#3b0814}.send,.new-chat-corner,.chat-sessions header button,.danger-button{background:var(--red)!important}.send:hover,.new-chat-corner:hover,.chat-sessions header button:hover{background:var(--red-hover)!important}

@@ -1,0 +1,1 @@
+.about-links{display:flex;flex-wrap:wrap;gap:8px;margin:2px 0 5px}.about-links button{display:inline-flex;align-items:center;gap:7px;padding:8px 10px;border:1px solid #6e3040;border-radius:6px;background:#2b151d;color:#f5dce2;font-size:12px;font-weight:700}.about-links button:hover{border-color:#bd5267;background:#421524;color:#fff}

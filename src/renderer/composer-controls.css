@@ -1,0 +1,56 @@
+.composer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+}
+
+.composer-controls,
+.composer-entry {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.composer-controls select {
+  min-width: 0;
+  flex: 1;
+  height: 29px;
+  padding: 0 8px;
+  border: 1px solid var(--border-strong, #513742);
+  border-radius: 5px;
+  outline: none;
+  background: #100e10;
+  color: var(--muted, #aa98a1);
+  font-size: 11px;
+}
+
+.composer-controls select:focus { border-color: var(--red, #9c102c); }
+
+.web-toggle {
+  height: 29px;
+  padding: 0 9px;
+  border: 1px solid var(--border-strong, #513742);
+  border-radius: 5px;
+  background: #21171c;
+  color: var(--muted, #aa98a1);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.web-toggle.active {
+  border-color: var(--red, #9c102c);
+  background: var(--red-soft, #4a101d);
+  color: #ffe1e5;
+}
+
+.web-toggle:disabled,
+.composer-controls select:disabled { cursor: default; opacity: .55; }
+
+.composer-entry textarea { flex: 1; }
+.composer-entry .send,
+.composer-entry .stop { flex: none; }
+
+.composer-disabled { opacity: .68; }
+.composer-disabled textarea:disabled { cursor: not-allowed; color: #8d7f85; background: #171216 !important; }
+.composer-entry .send:disabled { cursor: not-allowed; opacity: .42; filter: grayscale(1); }

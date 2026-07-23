@@ -5,7 +5,7 @@ Helix Code is a Windows desktop coding workspace with an AI agent, project explo
 Version: v1.0 BETA
 
 Repository: https://github.com/neonatro/helixcode
-
+Instagram: https://instagram.com/neonatro
 Made by neonatro
 
 ## Run the installer

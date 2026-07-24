@@ -25,19 +25,6 @@ npm.cmd install
 npm.cmd run dev
 ```
 
-If your copy of the project is still named `Helix-Agent`, rename it before opening a new terminal:
-
-```powershell
-Rename-Item "C:\Users\<username>\OneDrive\Desktop\Helix-Agent" "helixcode"
-```
-
-Then run it from the renamed folder:
-
-```powershell
-Set-Location "C:\Users\<username>\OneDrive\Desktop\helixcode"
-npm.cmd run dev
-```
-
 ## Features
 
 - AI providers: OpenRouter, Gemini, Groq, OpenAI, Anthropic, Ollama, LM Studio, and compatible OpenAI-style APIs.
